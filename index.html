@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rohit Madduru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <meta name="keywords" content="Rohit Madduru, Rohit Madduru Portfolio">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll', function(){
+      if($(window).scrollTop()){
+          $('nav').addClass('sticky');
+      }
+      else{
+        $('nav').removeClass('sticky');
+      }
+    })
+    </script>
+  </head>
+  <body>
+      <div class="headerclass">
+        <nav >
+           <a href="#topsection"><img class="logoimage" src="images/untitled.png" alt="logo"></a>
+           <ul>
+            <a  href="#topsection"><li>About</li></a>
+            <a  href="#myworks"><li>Work</li></a>
+            <a  href="#mypagecontact"><li>Contact</li></a>
+           </ul>
+        </nav>
+      </div>
+      <a name=topsection><section class="maintextsection"></a>
+      <div>
+        </a><img class="cloud1" src="images/cloud1.png" alt="cloud">
+        <div>
+          <h1 class="maintext">I'm Rohit .</h1>
+          <h3 class="subtext">A Developer</h3>
+        </div>
+        <img class="cloud2" src="images/cloud.png" alt="cloud">
+        <img class="mountain" src="images/mountain1.png" alt="cloud">
+      </div>
+    </section>
+    <section class="aboutmesection">
+      <div>
+        <img  class="myimage" src="images/untitled.png" alt="my image">
+        <h2 class="title">
+          Hi.
+        </h2>
+        <p class="mypara">
+          I am an Android and Web developer currently persuing B.TECH ( C.S.E ) at IcfaiTech university hyderabad, my passion towards programming makes me a good developer and designer.
+        </p>
+      </div>
+      <br>
+      <div class="myskills">
+       <h2 class="title">My Skills</h2>
+       <div class="web">
+         <img  class="imageweb" src="images/wd.png" alt="Web Development">
+         <h3 class="heading">Web Development</h3>
+         <p class="webpara">I started learning coding at an young age because i wanted to create a website of myself and show to my friends, Overtime I developed my skills and experience on front-end development</p>
+       </div>
+      </div>
+      <br>
+       <div class="web">
+         <img  class="imageandroid" src="images/ad.png" alt="Android Development">
+         <h3 class="heading">Android Development</h3>
+         <p class="webpara">I started learning android app development when i was insipred of facebook and wnt to make app that looks good and performs smooth, so I started learning UI and made many beautiful apps.</p>
+       </div>
+       <br>
+       <div class="web">
+        <img  class="imageweb" src="images/cl.png" alt="Java Language">
+        <h3 class="heading">Java Language</h3>
+        <p class="webpara">As we know that java is the basic for developing android apps i have a good grip of the basics and can solve complex problems in it.</p>
+      </div>
+      <br>
+       <div class="web">
+         <img  class="imageandroid" src="images/jl.jpg" alt="C Language">
+         <h3 class="heading">C Language</h3>
+         <p class="webpara">C is the basic language every body learns befor coding, I have very good knowledge on the basics and some of the advanved conceprts</p>
+       </div>
+       <a name="myworks"></a><hr></a>
+       <div class="row">
+        <h2 class="title">My Works</h2>
+          <div>
+            <img class="resize"src=" images/rohit.png" alt="MYA pp">
+          </div>
+       <div>
+        <p class="webpara">This is the App which I created for my college books, I keep my designs simple and sweet. </p>
+      </div>
+      <hr>
+      <div>
+        <a name="mypagecontact"><h2 class="title">Contact me</h2></a>
+        <h3 class="together">Let's Work Together</h3>
+        <div class="errorMessage"></div>
+             <form id="myform" onsubmit="return validation()">
+              <div class="feilds">
+                <input type="text" placeholder="Name" id="name" required>
+              </div>
+              <div class="feilds">
+                <input type="email" placeholder="Email" id="email" required>
+              </div>
+            <div class="feilds">
+             <textarea  id="message" placeholder="Messages" required></textarea>
+            </div>
+            <div class="buttonSubmit">
+             <input type="submit">
+            </div>
+            </form>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <a  class="ftext" href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+        <a class="ftext" href="https://www.facebook.com/">Facebook</a>
+        <a class="ftext" href="https://github.com/RohitMadduru">GitHub</a>
+        <h4 class="end">© 2020 Rohit Madduru </h4>
+      </div>
+    </section>
+  </body>
+</html>
+
