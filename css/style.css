@@ -69,6 +69,16 @@ nav ul  a:hover{
   color: black;
 }
 
+nav ul a.nav-about,
+nav ul a.nav-contact {
+  color: red;
+}
+
+nav ul a.nav-about:hover,
+nav ul a.nav-contact:hover {
+  color: red;
+}
+
 nav{
   position: fixed;
   width: 100%;
